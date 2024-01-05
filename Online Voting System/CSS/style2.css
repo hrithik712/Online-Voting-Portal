@@ -1,0 +1,32 @@
+body{
+    text-align: left;
+    background-image: url(election.jpg);
+}
+#headSection{
+    text-align: center;
+    padding: 10px;
+}
+
+#headerSection h1{
+    font-family: Cursive;
+    color: black;
+    text-decoration: underline;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 22%;
+}
+#loginbtn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #48dbfb;
+    color: white;
+}
+h2{
+    text-decoration: underline;
+}

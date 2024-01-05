@@ -1,0 +1,57 @@
+body{
+    text-align: right;
+    background-image: url(women.jpg);
+}#headSection{
+    padding: 10px;
+}
+
+#headerSection h1{
+    font-family: Cursive;
+    color: black;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 22%;
+}
+#loginbtn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #48dbfb;
+    color: white;
+}
+
+h1{
+    font-size: 250%;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    text-decoration: underline;
+}
+h2{
+    text-align: right;
+    color: black;
+    font-family: cursive;
+    text-decoration: underline;
+}
+h3{
+    color: rgb(212, 51, 51);
+    text-decoration: underline;
+}
+h4{
+    color: black;
+}
+h5{
+    color: whitesmoke;
+}
+#LoginButton{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #48dbfb;
+    color: white;
+}
+

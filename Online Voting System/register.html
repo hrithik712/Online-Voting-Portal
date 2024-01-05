@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Online Voting System</title>
+        <link rel="stylesheet" href="CSS/style1.css">
+    </head>
+    <body>
+        <style>
+            #address{ 
+                width: 40%;
+            }
+        </style>
+        <h1>Election Commission of India</h1>
+        <h2>Online Voting System</h2>
+        <h3>Registration</h3>
+        <form action="register.php" method ="POST" enctype="multipart/form-data">
+            <h4>
+            Name: <input type="text" name="name" placeholder="Enter Name"> <br><br>
+            Enter Voter Id: <input type="text" name="voterid" placeholder="Voter ID No."><br><br>
+            Mobile No: <input type="number" name="mobile" placeholder="Mobile Number"><br><br>
+            Password: <input type="password" name="password" placeholder="Password">
+            <input type="password" name ="cpassword" placeholder="Confirm Password"><br><br>
+            Enter Full Address: <input id="address" type="text" name="address" placeholder="Address"><br><br>
+            <div>
+                Upload Profile Image: <input type="file" name="photo"><br><br>
+            </div id="imagePart">
+            Select Role: <select name="role">
+                <option value="1">Voter</option>
+                <option value="2">Group</option>
+            </select><br><br>
+            <button id="LoginButton">Register</button><br><br>
+            </h4>
+            <h5>Already User? <a href="../aman/LoginPage.html">Login here"</a>
+            </h5>
+        </form>
+    </body>
+</html>
